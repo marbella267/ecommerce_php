@@ -1,0 +1,59 @@
+.main {
+  width: 50%;
+  padding: 0 40px;
+  margin-top: 50px;
+}
+.button {
+  width: 115px;
+}
+.err {
+  color: red;
+  text-align: center;
+  font-weight: 500;
+}
+.main-color {
+  color: #1a2854;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+.input {
+  background: #f6f6f6 !important;
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 36px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 1px 4px 0px #cbbdbd !important;
+}
+
+.input:focus{
+  border: none;
+}
+.input:not(:focus){
+  border: none;
+  box-shadow: 0px 1px 4px 0px #cbbdbd !important;
+
+}
+.submit{
+  height: 44px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 35px;
+  line-height: 36px;
+  border: 2px solid #20284f;
+  background-color: #20284f;
+  color: white;
+  width: 40%;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s all;
+}
+.submit:hover{
+  color: white;
+  background-color: #c02234;
+  border: 2px solid #c02234;
+  transition: 0.3s all;
+}

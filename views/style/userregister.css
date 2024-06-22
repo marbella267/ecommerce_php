@@ -1,0 +1,14 @@
+.main {
+  padding: 2rem;
+  width: 60%;
+  background-color: #eee;
+  border-radius: 20px;
+}
+.button {
+  width: 115px;
+}
+.err {
+  color: red;
+  text-align: center;
+  font-weight: 500;
+}

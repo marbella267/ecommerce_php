@@ -1,0 +1,217 @@
+
+.div {
+  margin-left: 35%;
+  margin-top: 7%;
+}
+.form {
+  width: 100%;
+  padding: 5%;
+}
+
+.pages {
+  margin-top: 60px;
+}
+.logo {
+  width: 10%;
+}
+.car {
+  margin-top: 700px;
+}
+.desc {
+  width: 30%;
+}
+.addproduct {
+  margin-top: 300px;
+}
+.table {
+  height: 75%;
+  border-color: #d2bdb7;
+  color: #a85d24;
+  padding-top: 1%;
+}
+.tr {
+  color: #a85d24;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.badge {
+  background-color: #ba8b7d;
+}
+.table:hover {
+  background-color: #edd9ca;
+}
+.addcat {
+  background-color: #e5c3b4;
+  color: #fdfdf9;
+}
+.updatecat {
+  background-color: #ba8b7d;
+  color: white;
+}
+.form-control:hover {
+  background-color: #f3ebe922;
+  border-color: wheat;
+  box-shadow: none;
+}
+.option:hover::after {
+  background: darkkhaki;
+}
+.del {
+  background-color: #ec7063;
+  color: white;
+}
+.del:hover {
+  background-color: #e74c3c;
+  color: white;
+}
+.deltext {
+  color: #e74c3c;
+}
+option:checked {
+  color: aliceblue;
+  background-color: #ba8b7d;
+}
+select {
+  background-color: #a85d24;
+  box-shadow: none;
+}
+.form-select:focus {
+  border-color: wheat;
+  box-shadow: none;
+}
+.form-select:hover {
+  background-color: #f3ebe922;
+  border-color: wheat;
+  box-shadow: none;
+}
+.form-control:focus {
+  border-color: wheat;
+  box-shadow: none;
+}
+.addcat:hover {
+  background-color: #f0bca6;
+  color: whitesmoke;
+}
+.updatecat:hover {
+  background-color: #f0bca6;
+  color: whitesmoke;
+}
+.accordion-button:hover {
+  background-color: #a85d240a;
+}
+.buttonsdiv {
+  color: black;
+}
+.page-item {
+  margin-left: 0.8%;
+}
+.page-link {
+  color: whitesmoke;
+  background-color: #e5c3b4;
+}
+.page-link:hover {
+  color: #bfc49f;
+}
+.container {
+  height: 100%;
+}
+
+.tr {
+  height: 10px;
+}
+.content {
+  width: 80%;
+  margin-left: 17%;
+  margin-top: 0px;
+  height: 100%;
+}
+.navbar-brand1 {
+  text-align: center;
+  margin-right: 0 !important;
+  /* font-weight: bold; */
+  /* margin-bottom: 35px; */
+  margin-top: 35px;
+}
+
+.nav1 {
+  margin: 10px;
+  margin-top: 1.9rem;
+  width: 20%;
+  background-color: #8aaae5;
+  border-radius: 20px;
+  height: 80vh;
+}
+.nav1 .navbar {
+  width: 100%;
+  margin: 0px;
+  height: 100%;
+  justify-content: flex-start;
+  align-content: center;
+  flex-direction: column;
+}
+
+.ul {
+  padding: 0;
+  width: 100%;
+  margin: auto;
+}
+
+.nav1 li {
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.nav1 li a {
+  font-size: 16px;
+  color: rgb(85, 83, 83);
+  font-size: 18px;
+}
+
+.nav1 i {
+  width: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.logout {
+  position: absolute;
+  bottom: 20px;
+}
+
+/* abdelaliem code */
+
+.mainu{
+  border-radius: 20px;
+  padding: 20px;
+}
+.mainu h2{
+  text-align: center;
+}
+
+.card0{
+  background-color: #e1edfd;
+}
+img{
+  object-fit: cover !important;
+  width: 100%;
+  height: 100%;
+}
+.div1{
+  height: 350px;
+  width: 100%;
+}

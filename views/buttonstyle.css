@@ -1,0 +1,15 @@
+.buttonsdiv {
+  color: black !important;
+}
+.page-item {
+  margin-left: 0.8%;
+}
+.page-link{
+  color: rgb(77, 84, 84) !important;
+  background-color: #FBEBB5 !important;
+}
+.page-link:hover {
+  /* border-color: #00bbff !important; */
+  background-color: #f8c997 !important;
+  /* color: #00bbff !important; */
+}

@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+   height: 100%;
+   background-color:#f0f6f9;
+}
+ *{
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+ }
+ 
+ .sidebar i{
+   margin-right: 7%;
+   width: 10%;
+   font-size: 18px;
+ }
+ .navbar-brand{
+   margin-left: 8%;
+ }
+ .sidebar li{
+   margin-top: 20%;
+ }
+ .sidebar ul{
+   margin-top: 40%;
+ }
+ .container{
+   height: 100%;
+ }
+ .sidebar{
+   top:0;
+   left:0;
+   position:fixed;
+   background-color:white;
+   padding: 2% 0;
+   height: 100%;
+   width: 15%;
+   color:grey;
+   
+ }
+.sidebar li:hover{
+    color: #00bbff;
+   
+ }
+ .product{
+  background-color: white;
+  border-radius: 20px;
+ 
+  padding: 3%;
+  height: 500px;
+ }
+ 
+
+.form{
+    width: 100%;
+    padding: 5%;
+}
+ 
+.pages{
+  margin-top: 60px;
+  
+}
+ .logo{
+    width: 10%;
+ }
+ .car{
+  margin-top: 700px;
+ }
+ 
+ .addproduct{
+  margin-top: 300px;
+ }
+ .product table{
+border-color:white;
+width: 100%;
+  padding-top: 1%;
+  padding: 3%;
+
+ }
+ 
+ .sidebar .navbar-brand{
+  color:#00bbff;
+ }
+ 
+ .badge{
+  background-color:#00bbff;
+ }
+ 
+ .addcat{
+  background-color:#6bb1ef;
+  color:#fdfdf9;
+ }
+ .updatecat{
+  background-color:	#8abf74;
+  color:white;
+ }
+ .form-control:hover{
+  background-color: #f3ebe922;
+  border-color:  #7ad0efac;
+  box-shadow: none;
+  
+ }
+ .option:hover::after{
+background: darkkhaki;
+ 
+ }
+ .del{
+  background-color: #ff8e8e;
+  color:white;
+ }
+ .sidebar a:focus-visible{
+  color:#00bbff
+}
+ .del:hover{
+  background-color:#b26262  ;
+  color:white;
+ }
+ 
+ .deltext{
+  color:#ff8e8e;
+ }
+ .deltext:hover{
+  color:#b26262  ;
+  
+ }
+ /* option:checked{
+  color: aliceblue;
+  background-color: #7ad0efac;
+ } */
+select{
+  background-color: #a85d24;
+  box-shadow: none;
+}
+ .form-select:focus{
+  border-color: #7ad0efac;
+  box-shadow: none;
+ }
+ .form-select:hover{
+  background-color: #f3ebe922;
+  border-color: #7ad0efac;
+  box-shadow: none;
+  
+ }
+ .form-control:focus{
+  border-color: #7ad0efac;
+  box-shadow: none;
+ }
+ .addcat:hover{
+  background-color:#558cbd;
+  color:whitesmoke;
+ }
+ .updatecat:hover{
+  background-color:#75a062;
+  color:whitesmoke;
+ }
+ .accordion-button:hover{
+  background-color: white;
+   
+ }
+ .buttonsdiv{
+  color: black;
+ }
+ .page-item{
+   margin-left: 0.8%;
+ }
+ .page-link{
+color: 	rgb(77, 84, 84);
+background-color:		
+#e2edf8;
+ 
+ }
+ .page-link:hover{
+  border-color:  #00bbff;
+  background-color: white;
+  color: #00bbff;
+ }
+ 
+    .container{
+      height: 100%;
+    }
+   
+    .product tr{
+      height: 80px;
+    }
+    .content{
+      width: 80%;
+      margin-left: 14%;
+      margin-top: 0px;
+      height: 100%;
+      
+    }
+
+    .update{
+      background-color: white;
+      padding: 3%;
+      border-radius: 20px;
+    }
+    .logout{
+      position: absolute;
+      bottom: 20px;
+    }
+    
+    
+    
+  .cart{
+    background-color:#f4f3f2;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 10%;
+    color: 	#e18d13;
+  }
+ 
+  .design2{
+    background-color: 	#f9e8cf;
+  }
+  .all{
+    height: 130px;
+  }
+  .design2:hover{
+    box-shadow: 20px 25px wheat;
+  }
+  .all{
+    background-color: #2c1a00;
+  }
+  .secrow{
+    margin-left: 50%;
+    width: 50%;
+  }
+  .secontent{
+    margin-left:1000px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+  }
+  .secontent div{
+    width: 10%;
+  }
+  
+  .productrow:hover{
+    cursor:pointer;
+    background-color:#eee;
+
+  }
